@@ -22,3 +22,8 @@ TEST_F(PrimeFixture, Of3) {
 	vector<int> exepcted = {3};
 	EXPECT_EQ(exepcted, prime_factor.of(3));
 }
+
+TEST_F(PrimeFixture, Of4) {
+	vector<int> exepcted = {2, 2};
+	EXPECT_EQ(exepcted, prime_factor.of(4));
+}
